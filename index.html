@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Carousel From Scratch</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="https://picsum.photos/id/888/1000/500" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://picsum.photos/id/777/1000/500" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://picsum.photos/id/999/1000/500" style="width:100%">
+  </div>
+  <a class="prev disable" onclick="plusSlides(-1)">❮</a>
+  <a class="next activee" onclick="plusSlides(1)">❯</a>
+</div>
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
